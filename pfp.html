@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33b0ab2b94.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Portfolio.</h1>
+               
+                <ul id="sidemenu">
+                   
+                    
+                     <li><a href="#header">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#portfolio">Portfolio</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                     
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Developer</p>
+                <h1>Hi,I'm <span>Atharva,</span> <br>Khot from India. </h1>
+
+             </div>
+
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/hotie1.jpg">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><i>About Me</i></h1>
+                    <p>
+                        I'm Atharva an FrontEnd Developer who is enthusiastic about creating engaging and delightful digital experiences.As an IT software professional ,I am highly creative in designing , building websites and portals .I also have extensive knowledge such as C ,C++, python and Javascript as well as advance web technology .I believe that my child like nature of learning has helped me understand overall concepts and in depth knowledge .
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"  onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>FrontEnd Developer</span><br>Designing Web/App Interface</li>
+                        <li><span>Web Developer</span><br> Web app Development</li>
+                        <li><span>Design and Graphics</span><br>Building designs Android/ios apps</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>FrontEnd Development Course at IT-Vedant Academy</li>
+                        <li><span>2024-Intern</span><br>Intership at Oasis Infobyte.</li>
+                        <li><span>2023</span><br>Developed various web designs and Interfaces.</li>
+                        <li><span>2023-Internship</span><br>Intership at Prodigy Infotech.</li>
+                    </ul>
+
+                </div> 
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2024</span><br>FrontEnd Development Course at IT-Vedant Academy.</li>
+                        <li><span>2024</span><br>Intership at Oasis Infobyte.</li>
+                        <li><span>2023</span><br>Masters (MSC/CA) from Symbioses University.</li>
+                        <li><span>2021</span><br>Bachelors (BCA) from Sanjay Ghodawat University.</li>
+                    </ul>
+
+                </div> 
+
+                </div>
+
+
+            </div>
+        </div>
+
+    
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        "Craft a visually captivating and user-friendly website that perfectly encapsulates your brand's essence and engages visitors from the moment they land on your homepage"
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Design/App interface</h2>
+                    <p>
+                        "Create an intuitive interface for a meal planning app that seamlessly integrates personalized dietary preferences, grocery lists, and recipe suggestions, ensuring users can easily plan and execute nutritious meals tailored to their individual needs."
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>
+                        "Create a mobile app that revolutionizes how users manage their daily tasks, combining intuitive design with smart algorithms to optimize productivity and streamline organization."
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Amazon Website</h3>
+
+                        <p>  Distinguish it with personalized recommendations, innovative algorithms, and improved customer support, ensuring scalability and user-friendly interface . Click to go.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Inventory Management Software</h3>
+
+                        <p>  Featuring intuitive user interfaces and real-time data updates for streamlined operations . Click to go.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Temparature Transmute</h3>
+ 
+                        <p>Enables seamless conversion between Celsius, Fahrenheit, and Kelvin .Enhance user experience with intuitive design and real-time updates.Click to go.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See  More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Contact@example.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>9844732841</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/myresume.pdf" download class="btn btn2">Download C.V</a>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright subjected to © Atharva. </p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){ 
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("ative-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzurKEoXR2IAI8k7IkjKt_I8MHhjzVRwsw7y-UN5TvTqLc3F90zVt-7CVOwY9QKclxq_g/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+
+</body>
+</html>
